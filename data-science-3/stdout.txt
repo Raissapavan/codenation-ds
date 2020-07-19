@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.6.4, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- C:\Users\Raissa\AppData\Local\Programs\Python\Python36\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Raissa\codenation\data-science-3
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\Users\Raissa\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\utils\deprecation.py:144
+  C:\Users\Raissa\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\utils\deprecation.py:144: FutureWarning: The sklearn.metrics.classification module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.metrics. Anything that cannot be imported from sklearn.metrics is now part of the private API.
+    warnings.warn(message, FutureWarning)
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+-- generated xml file: C:\Users\Raissa\codenation\data-science-3\output.xml ---
+==================== 4 passed, 1 warnings in 6.13 seconds =====================
